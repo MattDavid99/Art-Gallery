@@ -4,7 +4,6 @@ import ".//GalleryNavigation.css"
 
 function GalleryNavigation({ galleries }) {
 
-
     return (
         <nav>
             <h1>Galleries</h1>

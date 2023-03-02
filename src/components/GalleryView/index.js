@@ -10,10 +10,10 @@ function GalleryView({ galleries }) {
 
 
     return (
-        <>
+        <div>
             <h1>Hello from gallery view</h1>
             <h2>{galleryItem.name}</h2>
-        </>
+        </div >
 
     )
 
