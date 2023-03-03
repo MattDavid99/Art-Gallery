@@ -4,6 +4,8 @@ import ".//GalleryNavigation.css"
 
 function GalleryNavigation({ galleries }) {
 
+    console.log('GALLERY NAVIGATION-------------->', galleries);
+
     return (
         <nav>
             <h1>Galleries</h1>

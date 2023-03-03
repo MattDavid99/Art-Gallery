@@ -1,4 +1,5 @@
 import { useParams } from "react-router-dom/cjs/react-router-dom.min"
+import ArtDescription from "../ArtDescription";
 import ArtImageTile from "../ArtImageTile"
 
 
@@ -11,6 +12,7 @@ function GalleryView({ galleries }) {
 
     ))
 
+    console.log("GALLERY VIEW--------------->", galleryItem);
 
     return (
         <div>
