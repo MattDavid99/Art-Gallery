@@ -2,7 +2,7 @@ function ArtDescription({ gallery }) {
     console.log("ArtDescription------------------->", gallery);
 
     return (
-        <h1>HELLO</h1>
+        <h1>HELLOOO</h1>
     )
 
 }
