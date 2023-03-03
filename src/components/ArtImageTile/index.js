@@ -3,7 +3,7 @@ import ArtDescription from "../ArtDescription";
 import ".//ArtImageTile.css"
 
 function ArtImageTile({ art }) {
-    console.log("ARTIMAGETILE--------------->", art);
+    console.log("ARTIMAGE TILE--------------->", art);
 
     const { galleryId } = useParams()
 
@@ -13,8 +13,8 @@ function ArtImageTile({ art }) {
                 <li key={i.id}>
                     <Link to={`/galleries/${galleryId}/art/${i.id}`}>
                         <img src={i.images[0]?.baseimageurl} alt="unable-to-load-pic" className="image-style" />
-                        <ArtDescription gallery={i} />
                     </Link>
+                    <ArtDescription gallery={i} />
                 </li>
             ))}
         </div>
