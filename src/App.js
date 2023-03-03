@@ -1,5 +1,6 @@
 // import { NavLink } from "react-router-dom/cjs/react-router-dom.min";
 import { Route, Switch } from "react-router-dom/cjs/react-router-dom.min";
+// import ArtImageTile from "./components/ArtImageTile";
 import GalleryNavigation from "./components/GalleryNavigation";
 import GalleryView from "./components/GalleryView";
 import Home from "./components/Home";
